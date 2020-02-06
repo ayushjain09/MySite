@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  color: #40514E;
+}
+
+h1{
+  margin-top: 50px auto auto auto;
+  font-family: 'Sacramento',cursive;
+  font-size: 4.625rem;
+  color:#66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.4em;
+  color:#11999E;
+  text-decoration: none;
+  margin: 0 1.6%;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  /* border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #EAF6F6; */
+}
+
+.top{
+  position:relative;
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.middle{
+  padding: 100px 0;
+}
+
+.bottom{
+  background-color: #66BFBF;
+  padding: 50px 0 30px 0;
+}
+
+.topcloud{
+  position:absolute;
+  top:50px;
+  right:300px;
+}
+
+.bottomcloud{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.intro{
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.ds{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.music{
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999E 100%);
+	background-color:#11999E;
+	border-radius:8px;
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4997eb;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.8em;
+}
